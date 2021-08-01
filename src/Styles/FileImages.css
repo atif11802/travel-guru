@@ -1,0 +1,14 @@
+.fileImages > img {
+	border-radius: 20px;
+	height: 300px;
+	width: 200px;
+}
+
+.fileImages {
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+.active > img {
+	border: 2px solid yellow;
+}

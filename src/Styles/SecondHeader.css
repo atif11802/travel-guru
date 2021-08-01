@@ -1,0 +1,22 @@
+.secondHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	border-bottom: 1px solid lightgray;
+}
+
+.secondHeader__left > a > img {
+	width: 120px;
+}
+
+.headerSecond__right {
+	display: flex;
+}
+
+.headerSecond__right > p {
+	cursor: pointer;
+	font-size: large;
+	font-weight: 500;
+	padding-right: 10px;
+}

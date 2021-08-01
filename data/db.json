@@ -1,0 +1,19 @@
+{
+	"data": [
+		{
+			"title": "Sajek",
+			"img": "/static/media/Sajek.74fc052a.png",
+			"Description": "The valley is surrounded by mountains, dense forests, and grasslands hill tracks. It belongs to Baghaichhari Upazila of Rangamati district. It is situated at the North angle of Rangamati, near the Mizoram border boundary area."
+		},
+		{
+			"title": "Sremomgol",
+			"img": "/static/media/Sreemongol.aea2c690.png",
+			"Description": "Tourism in Sreemangal upazila of Moulvibazar has started to bounce back after suffering massive losses from the coronavirus pandemic that has affected almost all sectors of the economy."
+		},
+		{
+			"title": "Sundarban",
+			"img": "/static/media/sundorbon.7b51964c.png",
+			"Description": "The Sundarbans is a cluster of low-lying islands in the Bay of Bengal, spread across India and Bangladesh, famous for its unique mangrove forests."
+		}
+	]
+}

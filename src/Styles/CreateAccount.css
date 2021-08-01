@@ -1,0 +1,59 @@
+.createaccount__form {
+	max-width: 500px;
+	margin: 10px auto;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+.createaccount__form > h1 {
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.createaccount__form > form {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.createaccount__form > form > .MuiFormControl-root {
+	max-width: 430px;
+}
+
+.createaccount__form > form > button {
+	background-color: #f9a51a;
+	padding: 15px;
+	border: none;
+	width: 430px;
+	margin-bottom: 12px;
+	cursor: pointer;
+}
+
+.createaccount__form > p {
+	width: 100%;
+	margin: auto auto;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.createaccount__form > p > span {
+	color: #f9a51a;
+	cursor: pointer;
+	margin-left: 3px;
+}
+
+.createaccount > .otherlogin {
+	display: flex;
+	align-items: center;
+	max-width: 500px;
+	margin: 10px auto;
+	border: 1px solid lightgray;
+	border-radius: 50px;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.createaccount > .otherlogin > p {
+	margin-left: 10px;
+	font-size: 15px;
+}

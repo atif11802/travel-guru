@@ -1,0 +1,55 @@
+.booking {
+	display: flex;
+}
+
+.booking__left {
+	padding-top: 70px;
+	padding-left: 200px;
+	width: 500px;
+}
+
+.booking__left > h1 {
+	color: white;
+	font-size: 40px;
+}
+
+.booking__left > p {
+	padding-top: 15px;
+	color: white;
+	font-size: 20px;
+}
+
+.booking__right {
+	width: 500px;
+	background-color: white;
+	margin-top: 86px;
+	margin-left: 200px;
+	padding: 33px 40px;
+}
+
+.booking__right > p {
+	color: rgb(190, 186, 186);
+	margin-top: 10px;
+}
+.booking > .booking__right > input {
+	background-color: rgba(243, 235, 235, 0.993);
+	border: none;
+	width: 423px;
+	padding: 18px;
+	font-size: 18px;
+	color: black;
+	margin-top: 10px;
+}
+
+.booking > .booking__right > button {
+	background-color: #f9a51a;
+	border: none;
+	padding: 18px 168px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.boooking__dates {
+	display: flex;
+	margin-top: 15px;
+}

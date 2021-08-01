@@ -1,0 +1,68 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10px;
+	align-items: center;
+}
+
+.header__left {
+	display: flex;
+}
+
+.header__leftLogo > a > img {
+	height: 50px;
+	width: 110px;
+}
+
+.header__leftInput > input[type="text"],
+input[type="text"]:focus {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	outline-width: 0;
+	width: 298px;
+	color: white;
+	padding-left: 5px;
+}
+
+.header__leftInput {
+	width: 298px;
+	background-color: rgba(255, 255, 255, 0.4);
+	border: 1px solid white;
+	outline-width: 0;
+	display: flex;
+	color: white !important;
+	border-radius: 10px;
+	align-items: center;
+	height: 43px;
+	margin-left: 10px;
+}
+
+.header__leftInput > .MuiSvgIcon-root {
+	padding-left: 5px;
+}
+.header__right {
+	display: flex;
+}
+.header__right > ul {
+	display: flex;
+	align-items: center;
+}
+
+.header__right > ul > li {
+	list-style-type: none;
+	padding-right: 15px;
+}
+
+.header__right > ul > li > a {
+	color: white;
+	text-decoration: none;
+}
+
+.header__right > button {
+	background-color: #f9a51a;
+	border: none;
+	padding: 13px 32px;
+	border-radius: 8px;
+	font-size: 15px;
+	cursor: pointer;
+}

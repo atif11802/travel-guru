@@ -1,0 +1,40 @@
+.hotelroom__left > img {
+	width: 250px;
+}
+
+.hotelroom {
+	display: flex;
+	margin-top: 20px;
+}
+
+.hotelroom__right {
+	margin-left: 20px;
+}
+.hotelroom__right > p {
+	font-size: 18px;
+	color: gray;
+	margin-bottom: 10px;
+}
+
+.hotelroom__right > h1 {
+	font-size: 25px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.hotelroom__right > ul {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.hotelroom__right > ul > li {
+	list-style-type: none;
+	padding-right: 10px;
+}
+
+.hotelroom__rightRating {
+	display: flex;
+}
+
+.hotelroom__rightRating > p {
+	padding-right: 10px;
+}

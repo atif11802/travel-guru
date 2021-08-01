@@ -1,0 +1,22 @@
+.search {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.search__left > p {
+	font-weight: 300;
+	margin-top: 20px;
+}
+
+.search__left > h1 {
+	font-weight: 500;
+}
+
+.search__insider {
+	display: flex;
+}
+
+.search__insider > .search__right {
+	margin-top: 100px;
+	margin-left: 80px;
+}

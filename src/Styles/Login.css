@@ -1,0 +1,108 @@
+.login__form > form {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid lightgray;
+	width: 500px;
+}
+
+.login__form {
+	display: flex;
+	justify-content: center;
+	margin-top: 85px;
+}
+
+.login__form > form > h1 {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.MuiFormControl-root[type="text"],
+input[type="text"]:focus {
+	color: black;
+	max-width: 500px;
+}
+
+.MuiFormControl-root {
+	margin-bottom: 30px !important;
+}
+
+.login__formRemember {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.login__formRemember > .login__formRememberCheck {
+	display: flex;
+	align-items: center;
+}
+
+.login__formRemember > .login__formRememberRemember > p {
+	cursor: pointer;
+	color: #f9a51a;
+}
+
+.login__form > form > button {
+	background-color: #f9a51a;
+	border: none;
+	padding: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.login__form > form > p {
+	margin: auto auto;
+	text-align: center;
+}
+
+.login__form > form > p > span {
+	color: #f9a51a;
+	cursor: pointer;
+	margin-left: 5px;
+}
+.login__other {
+	border: none;
+	padding: 20px;
+}
+
+.login__otherOr {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.login__other > .login__otherfb {
+	max-width: 500px;
+	margin: auto auto;
+	display: flex;
+	align-items: center;
+	border: 1px solid lightgray;
+	border-radius: 50px;
+	padding: 15px 20px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.login__other > .login__otherfb > .fa-facebook {
+	color: #4064ac;
+	font-size: 35px;
+	padding-right: 10px;
+}
+
+.login__other > .login__otherGoogle {
+	max-width: 500px;
+	margin: auto auto;
+	display: flex;
+	align-items: center;
+	border: 1px solid lightgray;
+	border-radius: 50px;
+	padding: 15px 20px;
+	cursor: pointer;
+}
+
+.login__other > .login__otherGoogle > .fa-google {
+	font-size: 35px;
+	padding-right: 10px;
+}
